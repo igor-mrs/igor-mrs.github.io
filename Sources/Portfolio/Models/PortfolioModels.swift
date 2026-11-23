@@ -1,4 +1,10 @@
+#if !STATIC_EXPORT_ONLY
 import Vapor
+typealias PortfolioContent = Content
+#else
+import Foundation
+typealias PortfolioContent = Codable
+#endif
 
 enum Language: String, Sendable {
     case pt
@@ -67,7 +73,7 @@ struct ProjectLink: Codable, Sendable {
     let url: String
 }
 
-struct Project: Content, Sendable {
+struct Project: PortfolioContent, Sendable {
     let id: String
     let title: String
     let year: String
@@ -114,7 +120,7 @@ struct ToolGroup: Codable, Sendable {
     let items: [LocalizedString]
 }
 
-struct Profile: Content, Sendable {
+struct Profile: PortfolioContent, Sendable {
     let name: String
     let fullName: String
     let handle: String

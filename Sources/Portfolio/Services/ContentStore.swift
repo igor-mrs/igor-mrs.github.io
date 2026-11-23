@@ -1,5 +1,7 @@
 import Foundation
+#if !STATIC_EXPORT_ONLY
 import Vapor
+#endif
 
 struct ContentStore: Sendable {
     let dataDirectory: String

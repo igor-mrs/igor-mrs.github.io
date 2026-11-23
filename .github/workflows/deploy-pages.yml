@@ -22,10 +22,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build and export static site via Vapor
+      - name: Compile Swift exporter and generate dist
         run: |
-          swift build -c release
-          swift run -c release Portfolio export
+          swiftc -O -DSTATIC_EXPORT_ONLY \
+            Sources/Portfolio/Models/PortfolioModels.swift \
+            Sources/Portfolio/Services/ContentStore.swift \
+            Sources/Portfolio/Views/HTMLRenderer.swift \
+            Sources/Portfolio/Services/StaticSiteExporter.swift \
+            Sources/Portfolio/entrypoint.swift \
+            -o portfolio-export
+          ./portfolio-export
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
