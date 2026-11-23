@@ -1,0 +1,434 @@
+[
+  {
+    "description" : {
+      "en" : [
+        "Created at the Apple Developer Academy | PUC-Rio alongside Arley Pontes and Bianca Paiva in co-creation with Kuba Audio to solve an everyday problem: important decisions, tasks, changes, and processes getting lost across meetings, emails, chats, and documents.",
+        "It is a native macOS app that brings scattered team context together across existing channels so teams can retrieve decisions and streamline daily workflows without changing how they already work."
+      ],
+      "pt" : [
+        "Criei o Munim na Apple Developer Academy | PUC-Rio junto com Arley Pontes e Bianca Paiva, em co-criação com a Kuba Audio, pra resolver um problema simples e real: quantas decisões, tarefas, mudanças e processos de uma empresa acabam perdidos entre reuniões, e-mails, mensagens e documentos?",
+        "É uma aplicação nativa para macOS que reúne informações importantes espalhadas pelos canais que a equipe já utiliza, facilitando reencontrar decisões e automatizar ações do dia a dia sem mudar a forma como o time trabalha."
+      ]
+    },
+    "featured" : true,
+    "iconUrl" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Purple221\/v4\/d5\/8e\/7c\/d58e7c8b-102c-b5e4-98d6-5fbc03507cd8\/munim_icon-0-0-85-220-0-0-6-0-2x.png\/512x512bb.png",
+    "id" : "munim",
+    "links" : [
+      {
+        "label" : {
+          "en" : "App Store",
+          "pt" : "App Store"
+        },
+        "url" : "https:\/\/apps.apple.com\/br\/app\/munim-mem%C3%B3ria-organizacional\/id6797639934"
+      }
+    ],
+    "platform" : "macOS",
+    "stack" : [
+      "Swift",
+      "macOS",
+      "SwiftUI",
+      "Google Workspace",
+      "OpenRouter",
+      "Zero Data Retention (ZDR)"
+    ],
+    "status" : "live",
+    "statusLabel" : {
+      "en" : "On App Store",
+      "pt" : "Na App Store"
+    },
+    "tagline" : {
+      "en" : "Organizational memory app for macOS teams, co-created with Kuba Audio.",
+      "pt" : "Memória organizacional para empresas no macOS, co-criado com a Kuba Audio."
+    },
+    "title" : "Munim",
+    "year" : "2026"
+  },
+  {
+    "currentFocus" : {
+      "en" : "Collaborating on systems implementation to move the project forward.",
+      "pt" : "Colaborando na implementação de sistemas para o andamento do projeto."
+    },
+    "description" : {
+      "en" : [
+        "A GameLab UERJ project inspired by the intensity and feel of Hades. Here the underworld is academic rather than mythological: each floor represents a core Engineering course, with bosses ranging from Calculus to Physics.",
+        "I collaborate on the game's development at GameLab UERJ, helping build systems, combat pacing, and progression for this tribute to UERJ engineering students."
+      ],
+      "pt" : [
+        "Projeto do GameLab UERJ inspirado na intensidade e estética de Hades. Aqui o inferno não é mitológico — é acadêmico: cada andar representa uma matéria do ciclo básico de Engenharia, com bosses inspirados do terror de Cálculo ao caos da Física.",
+        "Colaboro no desenvolvimento do jogo pelo GameLab UERJ, ajudando a construir sistemas, ritmo de combate e progressão dessa homenagem aos estudantes da UERJ."
+      ]
+    },
+    "featured" : true,
+    "iconUrl" : "https:\/\/img.itch.zone\/aW1nLzIzNzIxNzIxLnBuZw==\/original\/w2isuJ.png",
+    "id" : "ciclo-infinito",
+    "links" : [
+      {
+        "label" : {
+          "en" : "itch.io",
+          "pt" : "itch.io"
+        },
+        "url" : "https:\/\/gamelabuerj.itch.io\/ciclo-infinito"
+      }
+    ],
+    "platform" : "PC · GameLab",
+    "stack" : [
+      "Godot",
+      "GDScript",
+      "GameLab UERJ"
+    ],
+    "status" : "wip",
+    "statusLabel" : {
+      "en" : "In progress",
+      "pt" : "Em desenvolvimento"
+    },
+    "tagline" : {
+      "en" : "Hades-inspired action game set in the corridors of UERJ's João Lyra Filho building.",
+      "pt" : "Jogo de ação estilo Hades ambientado nos corredores do João Lyra Filho, da UERJ."
+    },
+    "title" : "Ciclo Infinito",
+    "year" : "2026"
+  },
+  {
+    "currentFocus" : {
+      "en" : "Expanding the MVP for dungeon exploration and cooking mechanics at GameLab UERJ.",
+      "pt" : "Evoluindo o MVP dos sistemas de exploração de masmorras e culinária no GameLab UERJ."
+    },
+    "description" : {
+      "en" : [
+        "You reincarnate in another world where defeated dungeon monsters become ingredients. The core loop blends hunting through dungeons, cooking meals, serving customers to earn gold, and funding bigger expeditions.",
+        "Currently in active development at GameLab UERJ, where I collaborate on expanding the MVP across dungeon combat and cooking systems."
+      ],
+      "pt" : [
+        "Você reencarnou em outro mundo onde monstros derrotados nas masmorras viram ingredientes. O ciclo do jogo mistura caçar em masmorras, preparar refeições, servir clientes pra ganhar dinheiro e investir esse retorno em novas expedições.",
+        "Projeto em desenvolvimento ativo no GameLab UERJ, onde colaboro na evolução do MVP para transformar os sistemas principais de combate e culinária na experiência completa."
+      ]
+    },
+    "featured" : true,
+    "iconUrl" : "https:\/\/img.itch.zone\/aW1nLzI5MTA1OTIzLnBuZw==\/original\/c6yVhX.png",
+    "id" : "loot-and-lunch",
+    "links" : [
+      {
+        "label" : {
+          "en" : "itch.io",
+          "pt" : "itch.io"
+        },
+        "url" : "https:\/\/gamelabuerj.itch.io\/loot-and-lunch"
+      }
+    ],
+    "platform" : "PC · GameLab",
+    "stack" : [
+      "Godot",
+      "GDScript",
+      "GameLab UERJ"
+    ],
+    "status" : "wip",
+    "statusLabel" : {
+      "en" : "In progress",
+      "pt" : "Em desenvolvimento"
+    },
+    "tagline" : {
+      "en" : "Action RPG blending dungeon crawling and cooking simulation at GameLab UERJ.",
+      "pt" : "RPG de ação que mistura dungeon crawler e cooking simulator no GameLab UERJ."
+    },
+    "title" : "Loot & Lunch",
+    "year" : "2026"
+  },
+  {
+    "description" : {
+      "en" : [
+        "Built at the Apple Developer Academy | PUC-Rio alongside Antonio Tomich and Bianca Cardador so students can find academic, cultural, and campus events in one place instead of chasing scattered posts.",
+        "Alongside the iOS app, I built a companion macOS pipeline using Foundation Models and DOM parsing to extract web announcements and turn them into structured event cards."
+      ],
+      "pt" : [
+        "Aplicativo feito na Apple Developer Academy | PUC-Rio em parceria com Antonio Tomich e Bianca Cardador pra ajudar estudantes a encontrarem eventos acadêmicos, culturais e institucionais sem depender de dezenas de perfis soltos.",
+        "Além do app iOS, montei uma camada paralela no macOS usando Foundation Models e leitura de DOM pra puxar publicações da web e gerar cards de evento automaticamente."
+      ]
+    },
+    "featured" : true,
+    "iconUrl" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Purple211\/v4\/8d\/14\/30\/8d143072-f780-2985-8554-06618d9f0f2e\/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png\/512x512bb.jpg",
+    "id" : "reuni",
+    "links" : [
+      {
+        "label" : {
+          "en" : "App Store",
+          "pt" : "App Store"
+        },
+        "url" : "https:\/\/apps.apple.com\/br\/app\/reuni\/id6770676000"
+      }
+    ],
+    "platform" : "iOS · macOS",
+    "stack" : [
+      "Swift",
+      "SwiftUI",
+      "Foundation Models",
+      "macOS"
+    ],
+    "status" : "live",
+    "statusLabel" : {
+      "en" : "On App Store",
+      "pt" : "Na App Store"
+    },
+    "tagline" : {
+      "en" : "Campus event discovery and schedule for PUC-Rio, with macOS web extraction.",
+      "pt" : "Agenda e descoberta de eventos da PUC-Rio, com extração automática no macOS."
+    },
+    "title" : "Reuni",
+    "year" : "2026"
+  },
+  {
+    "description" : {
+      "en" : [
+        "Built as a Swift Playgrounds app at the Apple Developer Academy (Class of 2026\/2027), PlayMood turns online gaming sessions into analyzable data and personal insights. Players log matches in seconds — capturing game, outcome, mood, triggers, and teammates without breaking flow.",
+        "Using on-device Foundation Models (100% private, with no external servers), the app surfaces subtle relationships between mood, stress triggers, consistency, and performance, paired with 'My Year in Pixels'-inspired visualizations and validated through structured user testing."
+      ],
+      "pt" : [
+        "Desenvolvido como um app em Swift Playgrounds na Apple Developer Academy (Turma 2026\/2027), o PlayMood transforma sessões em jogos online em dados analisáveis e insights pessoais. Ele permite registrar partidas em poucos segundos com jogo, resultado, humor, motivos e com quem você jogou — sem interromper o fluxo.",
+        "Utilizando Foundation Models diretamente no dispositivo (de forma 100% privada, sem envio para servidores externos), o app identifica relações sutis entre humor, gatilhos de estresse, consistência e desempenho, complementado por visualizações inspiradas em 'My Year in Pixels' e validado com ambientes de testes reais com usuários."
+      ]
+    },
+    "featured" : true,
+    "iconUrl" : "\/images\/playmood-icon.png",
+    "id" : "playmood",
+    "links" : [
+
+    ],
+    "platform" : "iOS · Swift Playgrounds",
+    "stack" : [
+      "Swift",
+      "SwiftUI",
+      "Swift Playgrounds",
+      "Foundation Models",
+      {
+        "en" : "User Testing",
+        "pt" : "Testes com Usuários"
+      }
+    ],
+    "status" : "live",
+    "statusLabel" : {
+      "en" : "Swift Playgrounds · Academy",
+      "pt" : "Swift Playgrounds · Academy"
+    },
+    "tagline" : {
+      "en" : "Smart match diary with private on-device Foundation Models analysis and 'My Year in Pixels'-inspired visualizations.",
+      "pt" : "Diário inteligente de partidas com análise privada on-device via Foundation Models e visualização inspirada em 'My Year in Pixels'."
+    },
+    "title" : "PlayMood",
+    "year" : "2026"
+  },
+  {
+    "description" : {
+      "en" : [
+        "Project developed during my Technological Initiation fellowship at the National Institute of Technology (INT), combining electronics, sensors, and alert systems for preventive fire monitoring and safety.",
+        "I programmed Arduino microcontrollers (C\/C++) for data acquisition and prototype automation, integrated SCADA monitoring, ran experimental test suites, analyzed outcomes, and wrote technical documentation."
+      ],
+      "pt" : [
+        "Projeto desenvolvido durante minha bolsa de Iniciação Tecnológica no Instituto Nacional de Tecnologia (INT), unindo eletrônica, sensores e sistemas de alerta para monitoramento preventivo e segurança contra incêndios.",
+        "Fiquei responsável pela programação de microcontroladores Arduino (C\/C++) para aquisição de dados e automação de protótipos, integração com sistema SCADA, condução de testes experimentais, análise de resultados e documentação técnica."
+      ]
+    },
+    "featured" : false,
+    "id" : "int-prevencao-incendio",
+    "links" : [
+
+    ],
+    "platform" : "Arduino · SCADA · Eletrônica",
+    "stack" : [
+      "Arduino \/ C++",
+      "SCADA",
+      {
+        "en" : "Sensors & Electronics",
+        "pt" : "Sensores & Eletrônica"
+      },
+      {
+        "en" : "Technical Documentation",
+        "pt" : "Documentação Técnica"
+      }
+    ],
+    "status" : "live",
+    "statusLabel" : {
+      "en" : "Tech Fellowship · INT",
+      "pt" : "Iniciação Tecnológica · INT"
+    },
+    "tagline" : {
+      "en" : "Computational electronics solution combining sensors, Arduino microcontrollers, and SCADA for fire monitoring and prevention.",
+      "pt" : "Solução eletrônica computacional integrando sensores, microcontroladores Arduino e SCADA para monitoramento e prevenção de incêndios."
+    },
+    "title" : "Sistema de Prevenção Contra Incêndios (INT)",
+    "year" : "2025 – 2026"
+  },
+  {
+    "description" : {
+      "en" : [
+        "Open-source web platform I built so UERJ Engineering students can browse subjects, read professor reviews, and navigate interactive prerequisite flowcharts by major and emphasis.",
+        "Covers seven engineering programs with Supabase auth and relational database, deployed live on Vercel."
+      ],
+      "pt" : [
+        "Plataforma open-source que fiz pra galera das engenharias da UERJ conseguir pesquisar disciplinas, conferir avaliações de professores e navegar pelo fluxograma de pré-requisitos filtrado por ênfase.",
+        "Cobre sete cursos de engenharia da universidade, tem autenticação e banco relacional no Supabase e roda em produção na Vercel."
+      ]
+    },
+    "featured" : true,
+    "id" : "uerj-avalia",
+    "links" : [
+      {
+        "label" : {
+          "en" : "Live site",
+          "pt" : "Acessar site"
+        },
+        "url" : "https:\/\/avalia-eng-uerj.vercel.app\/"
+      },
+      {
+        "label" : {
+          "en" : "GitHub",
+          "pt" : "GitHub"
+        },
+        "url" : "https:\/\/github.com\/igor-mrs\/uerj-avalia"
+      }
+    ],
+    "platform" : "Web",
+    "stack" : [
+      "Next.js 15",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "shadcn\/ui"
+    ],
+    "status" : "live",
+    "statusLabel" : {
+      "en" : "Live",
+      "pt" : "No ar"
+    },
+    "tagline" : {
+      "en" : "Professor reviews and interactive curriculum flowchart for UERJ Engineering.",
+      "pt" : "Avaliação de professores e fluxograma interativo para as engenharias da UERJ."
+    },
+    "title" : "UERJ Avalia",
+    "year" : "2025"
+  },
+  {
+    "description" : {
+      "en" : [
+        "Hands-on material I designed and taught under my GameLab UERJ Teaching Initiation fellowship during the XII UERJ Engineering Week.",
+        "I split the repository into 7 progressive branches (00-projeto-base through 06-polimento-final) covering RigidBody2D physics, obstacle spawning, HUD, disk-backed high scores, and audio."
+      ],
+      "pt" : [
+        "Material prático que criei e ministrei como bolsista de Iniciação à Docência (GameLab UERJ) na XII Semana de Engenharia da UERJ.",
+        "Estruturei o repositório em 7 branches sequenciais (de 00-projeto-base até 06-polimento-final) cobrindo física com RigidBody2D, spawner de obstáculos, HUD, persistência de recorde em arquivo e áudio — assim quem se perdesse durante a oficina conseguia pular direto pra etapa certa."
+      ]
+    },
+    "featured" : false,
+    "id" : "flappy-bird-uerj",
+    "links" : [
+      {
+        "label" : {
+          "en" : "GitHub",
+          "pt" : "GitHub"
+        },
+        "url" : "https:\/\/github.com\/igor-mrs\/flappy-bird-uerj"
+      }
+    ],
+    "platform" : "Godot 4.6",
+    "stack" : [
+      "Godot 4.6+",
+      "GDScript",
+      {
+        "en" : "2D Physics",
+        "pt" : "Física 2D"
+      }
+    ],
+    "status" : "live",
+    "statusLabel" : {
+      "en" : "Workshop",
+      "pt" : "Material de aula"
+    },
+    "tagline" : {
+      "en" : "Game split across 7 progressive branches for a workshop I taught at UERJ Engineering Week.",
+      "pt" : "Jogo dividido em 7 branches pra oficina que ministrei na XII Semana de Engenharia da UERJ."
+    },
+    "title" : "Flappy Bird (Oficina Godot 4)",
+    "year" : "2026"
+  },
+  {
+    "description" : {
+      "en" : [
+        "Team project built at GameLab UERJ for Engineering Week. It is a 2D roguelite focused on responsive combat, procedural progression, and modular GDScript systems.",
+        "We relied on Godot node composition to keep abilities, weapons, and enemy behaviors decoupled and easy to iterate on."
+      ],
+      "pt" : [
+        "Projeto desenvolvido em equipe no GameLab UERJ para a semana de engenharia. É um roguelite 2D focado em combate ágil, progressão procedural e sistemas modulares em GDScript.",
+        "Trabalhamos com composição de nós no Godot para manter habilidades, armas e comportamentos de inimigos desacoplados e fáceis de iterar."
+      ]
+    },
+    "featured" : false,
+    "id" : "cipher-protocol",
+    "links" : [
+      {
+        "label" : {
+          "en" : "GitHub",
+          "pt" : "GitHub"
+        },
+        "url" : "https:\/\/github.com\/Clique33\/Gamelab-Cipher-Labs"
+      }
+    ],
+    "platform" : "Godot 4",
+    "stack" : [
+      "Godot 4",
+      "GDScript",
+      {
+        "en" : "Node Composition",
+        "pt" : "Composição"
+      }
+    ],
+    "status" : "live",
+    "statusLabel" : {
+      "en" : "GameLab UERJ",
+      "pt" : "GameLab UERJ"
+    },
+    "tagline" : {
+      "en" : "2D roguelite with dynamic mechanics developed at GameLab UERJ.",
+      "pt" : "Roguelite 2D com mecânicas dinâmicas desenvolvido no GameLab UERJ."
+    },
+    "title" : "Cipher Protocol",
+    "year" : "2025"
+  },
+  {
+    "description" : {
+      "en" : [
+        "Windows desktop utility written in C# (.NET Framework) so players would not end up with missing archives or broken installs.",
+        "Users choose a destination folder once and the app fetches the setup executable along with all required .Bin files, launching the installer automatically upon completion."
+      ],
+      "pt" : [
+        "Utilitário desktop em C# (.NET Framework) criado pra evitar que jogadores baixassem arquivos faltando ou escolhessem a pasta errada na instalação.",
+        "O usuário seleciona o diretório uma vez e o aplicativo baixa o executável de setup junto com todos os pacotes .Bin necessários, abrindo o instalador automaticamente ao concluir."
+      ]
+    },
+    "featured" : false,
+    "id" : "alpha-download-manager",
+    "links" : [
+      {
+        "label" : {
+          "en" : "GitHub",
+          "pt" : "GitHub"
+        },
+        "url" : "https:\/\/github.com\/igor-mrs\/AlphaDownloadManager"
+      }
+    ],
+    "platform" : "Windows",
+    "stack" : [
+      "C#",
+      ".NET Framework",
+      "Windows"
+    ],
+    "status" : "live",
+    "statusLabel" : {
+      "en" : "Finished",
+      "pt" : "Concluído"
+    },
+    "tagline" : {
+      "en" : "Automated download and setup launcher built for the AlphaGaming team.",
+      "pt" : "Gerenciador de download e instalação automatizada feito pra equipe AlphaGaming."
+    },
+    "title" : "AlphaDownloadManager",
+    "year" : "2024"
+  }
+]

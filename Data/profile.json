@@ -1,0 +1,272 @@
+{
+  "name": "Igor Amaral",
+  "fullName": "Igor Morais do Amaral",
+  "handle": "igor-mrs",
+  "location": "Rio de Janeiro, RJ",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/72419124?v=4",
+  "email": "igor.mrs@outlook.com",
+  "githubUrl": "https://github.com/igor-mrs",
+  "linkedinUrl": "https://www.linkedin.com/in/igor-morais-do-amaral/",
+  "hero": {
+    "eyebrow": {
+      "pt": "iOS Developer {em construção} · Software Engineer {em construção} · Engenharia de Computação - UERJ",
+      "en": "iOS Developer {in progress} · Software Engineer {in progress} · Computer Engineering - UERJ"
+    },
+    "greeting": {
+      "pt": "Oi, sou o Igor.",
+      "en": "Hey, I'm Igor."
+    },
+    "lead": {
+      "pt": "Atualmente estagiário no programa Apple Developer Academy | PUC-Rio, mergulhando fundo em Swift, SwiftUI e CloudKit. Paralelamente, colaboro no GameLab UERJ com Godot e atuo como bolsista de Iniciação à Docência.",
+      "en": "Currently interning at the Apple Developer Academy | PUC-Rio program, diving deep into Swift, SwiftUI, and CloudKit. In parallel, I collaborate at GameLab UERJ building Godot games and serve as a Teaching Initiation fellow."
+    },
+    "secondary": {
+      "pt": "Meu foco agora é consolidar fundamentos de engenharia de software e aplicar boas práticas no ecossistema Apple. Sem pressa, mas com consistência.",
+      "en": "My focus right now is consolidating software engineering fundamentals and applying sound practices across the Apple ecosystem. Unhurried, yet consistent."
+    }
+  },
+  "nowStrip": [
+    {
+      "place": "Apple Developer Academy | PUC-Rio",
+      "role": {
+        "pt": "Estágio · iOS & macOS",
+        "en": "Internship · iOS & macOS"
+      },
+      "summary": {
+        "pt": "Apps nativos e Playgrounds em Swift - como Munim (macOS, com a Kuba Audio), Reuni (App Store) e PlayMood.",
+        "en": "Native apps and Playgrounds in Swift - including Munim (macOS, with Kuba Audio), Reuni (App Store), and PlayMood."
+      }
+    },
+    {
+      "place": "GameLab UERJ",
+      "role": {
+        "pt": "Colaborador & Iniciação à Docência",
+        "en": "Collaborator & Teaching Fellow"
+      },
+      "summary": {
+        "pt": "Desenvolvimento de jogos em Godot (Ciclo Infinito, Loot & Lunch, Cipher Protocol), criação de aulas e materiais de apoio baseados em Project-Based Learning (PBL), videoaulas e oficinas práticas na UERJ.",
+        "en": "Godot game development (Ciclo Infinito, Loot & Lunch, Cipher Protocol), course design and teaching materials based on Project-Based Learning (PBL), video lessons, and hands-on workshops at UERJ."
+      }
+    },
+    {
+      "place": "UERJ",
+      "role": {
+        "pt": "Graduação em andamento",
+        "en": "B.Sc. in progress"
+      },
+      "summary": {
+        "pt": "Engenharia Elétrica com Ênfase em Sistemas e Computação (Engenharia de Computação).",
+        "en": "Electrical Engineering — Systems & Computing emphasis (Computer Engineering)."
+      }
+    }
+  ],
+  "about": {
+    "intro": {
+      "pt": "iOS Developer {em construção} · Software Engineer {em construção} · Engenharia de Computação - UERJ.",
+      "en": "iOS Developer {in progress} · Software Engineer {in progress} · Computer Engineering - UERJ."
+    },
+    "readmeBullets": {
+      "pt": [
+        "Atualmente estagiando na Apple Developer Academy | PUC-Rio, mergulhando fundo em Swift, SwiftUI e CloudKit.",
+        "Paralelamente, colaboro no GameLab UERJ desenvolvendo jogos com Godot. Também atuo como bolsista de Iniciação à Docência na UERJ, produzindo conteúdos relacionados à GameDev em Godot.",
+        "Minha bagagem inclui apps iOS/macOS desenvolvidos em Swift (SwiftUI, UIKit, Vapor), sistemas web em PHP/Laravel, modelagem de dados com SQL Server, ferramentas desktop simples em C# e algumas automações em Python.",
+        "Cursando Engenharia Elétrica com ênfase em Sistemas e Computação (Engenharia da Computação) na UERJ, o que me dá uma base analítica forte e um carinho especial por resolver problemas complexos.",
+        "Meu foco agora é consolidar fundamentos de engenharia de software e aplicar boas práticas no ecossistema Apple, sem pressa, mas com consistência."
+      ],
+      "en": [
+        "Currently interning at the Apple Developer Academy | PUC-Rio, diving deep into Swift, SwiftUI, and CloudKit.",
+        "In parallel, I collaborate at GameLab UERJ building games with Godot and serve as a Teaching Initiation fellow at UERJ creating Godot game development content.",
+        "My background spans iOS/macOS apps in Swift (SwiftUI, UIKit, Vapor), web systems in PHP/Laravel, data modeling with SQL Server, desktop tools in C#, and Python automations.",
+        "Studying Electrical Engineering with Systems and Computing emphasis (Computer Engineering) at UERJ, giving me a strong analytical foundation and a love for solving complex problems.",
+        "My current focus is consolidating software engineering fundamentals and applying best practices in the Apple ecosystem — steadily and consistently."
+      ]
+    },
+    "story": {
+      "pt": [
+        "Antes da graduação na UERJ, fiz o ensino médio integrado ao Técnico em Telecomunicações no CEFET/RJ (UnED Nova Iguaçu), onde também participei de projeto de montagem e manutenção de computadores e tive meu primeiro contato prático com eletrônica e infraestrutura.",
+        "Na sequência passei por estágio em eletrotécnica na Energilétrica, fui Jovem Aprendiz na Nasajon e atuei como bolsista de Iniciação Tecnológica no Instituto Nacional de Tecnologia (INT), desenvolvendo soluções eletrônicas computacionais com Arduino, sensores e SCADA para prevenção de incêndios — experiência que hoje se soma ao desenvolvimento iOS/macOS na Apple Developer Academy e à colaboração em jogos no GameLab UERJ."
+      ],
+      "en": [
+        "Before my degree at UERJ, I completed a Technical High School degree in Telecommunications at CEFET/RJ (UnED Nova Iguaçu), where I also joined a PC assembly and maintenance project and got hands-on with electronics and infrastructure.",
+        "Afterwards I interned in electrotechnics at Energilétrica, worked as a Young Apprentice at Nasajon, and served as a Technological Initiation fellow at the National Institute of Technology (INT) building Arduino, sensor, and SCADA fire-prevention systems — experience that now pairs with iOS/macOS engineering at the Apple Developer Academy and game collaboration at GameLab UERJ."
+      ]
+    }
+  },
+  "experience": [
+    {
+      "period": {
+        "pt": "fev/2026 – atual",
+        "en": "Feb/2026 – present"
+      },
+      "organization": "Apple Developer Academy — PUC-Rio",
+      "role": {
+        "pt": "Estagiário em Desenvolvimento iOS / macOS",
+        "en": "iOS / macOS Developer Intern"
+      },
+      "summary": {
+        "pt": "Desenvolvimento de apps e Playgrounds para iOS e macOS com Swift, SwiftUI, SpriteKit, SwiftData, CloudKit, Vapor e Foundation Models. Atuação da pesquisa e prototipação à montagem de ambientes de teste e validação com usuários, pitches e publicação na App Store (Munim com a Kuba Audio, Reuni e PlayMood).",
+        "en": "Building iOS and macOS apps and Playgrounds with Swift, SwiftUI, SpriteKit, SwiftData, CloudKit, Vapor, and Foundation Models. End-to-end work from research and prototyping to user test environments, validation, pitches, and App Store shipping (Munim with Kuba Audio, Reuni, and PlayMood)."
+      }
+    },
+    {
+      "period": {
+        "pt": "jul/2026 – atual",
+        "en": "Jul/2026 – present"
+      },
+      "organization": "GameLab UERJ — Iniciação à Docência",
+      "role": {
+        "pt": "Colaborador em GameDev & Bolsista de Iniciação à Docência",
+        "en": "GameDev Collaborator & Teaching Initiation Fellow"
+      },
+      "summary": {
+        "pt": "Desenvolvimento colaborativo de jogos digitais em Godot Engine (Ciclo Infinito, Loot & Lunch e Cipher Protocol), arquitetura dos projetos e criação de aulas, oficinas, videoaulas e materiais didáticos baseados em Project-Based Learning (PBL).",
+        "en": "Collaborative game development in Godot Engine (Ciclo Infinito, Loot & Lunch, and Cipher Protocol), project architecture, and creation of workshops, video lessons, and teaching materials grounded in Project-Based Learning (PBL)."
+      }
+    },
+    {
+      "period": {
+        "pt": "mar/2025 – fev/2026",
+        "en": "Mar/2025 – Feb/2026"
+      },
+      "organization": "Instituto Nacional de Tecnologia (INT)",
+      "role": {
+        "pt": "Bolsista de Iniciação Tecnológica · Projeto de Prevenção Contra Incêndios",
+        "en": "Technological Initiation Fellow · Fire Prevention Project"
+      },
+      "summary": {
+        "pt": "Desenvolvimento de soluções eletrônicas para prevenção de incêndios integrando sensores, sistemas de alerta e SCADA. Programação de microcontroladores Arduino (C/C++) para aquisição de dados e automação, testes experimentais e documentação técnica.",
+        "en": "Built electronic fire-prevention solutions integrating sensors, alert systems, and SCADA. Programmed Arduino microcontrollers (C/C++) for data acquisition and automation, ran experimental tests, and authored technical documentation."
+      }
+    },
+    {
+      "period": {
+        "pt": "abr/2024 – jan/2025",
+        "en": "Apr/2024 – Jan/2025"
+      },
+      "organization": "IA.UERJ — Inteligência Artificial Generativa no Ensino de Química",
+      "role": {
+        "pt": "Bolsista de Projeto Acadêmico",
+        "en": "Academic Project Fellow"
+      },
+      "summary": {
+        "pt": "Desenvolvimento de recursos educacionais utilizando Inteligência Artificial Generativa para apoio ao ensino de Química na UERJ.",
+        "en": "Developed educational resources powered by Generative AI to support Chemistry teaching at UERJ."
+      }
+    },
+    {
+      "period": {
+        "pt": "fev/2023 – ago/2023",
+        "en": "Feb/2023 – Aug/2023"
+      },
+      "organization": "Nasajon",
+      "role": {
+        "pt": "Jovem Aprendiz · Conteúdo Visual & Web",
+        "en": "Young Apprentice · Visual Content & Web"
+      },
+      "summary": {
+        "pt": "Criação de conteúdos visuais e animações em motion design (After Effects, Audition, Affinity Suite), manutenção do site corporativo e produção de vídeos para o ERP Summit 2023 (+6 mil participantes).",
+        "en": "Created motion design animations and visual content (After Effects, Audition, Affinity Suite), maintained the corporate website, and produced marketing videos for ERP Summit 2023 (6,000+ attendees)."
+      }
+    },
+    {
+      "period": {
+        "pt": "dez/2021 – mai/2022",
+        "en": "Dec/2021 – May/2022"
+      },
+      "organization": "Energilétrica Indústria Eletrotécnica LTDA",
+      "role": {
+        "pt": "Estagiário · Eletrotécnica",
+        "en": "Electrotechnics Intern"
+      },
+      "summary": {
+        "pt": "Montagem e testes de painéis elétricos, interpretação de projetos e apoio à automação industrial.",
+        "en": "Assembly and testing of electrical panels, blueprint reading, and industrial automation support."
+      }
+    }
+  ],
+  "education": [
+    {
+      "period": {
+        "pt": "ago/2023 – atual",
+        "en": "Aug/2023 – present"
+      },
+      "organization": "Universidade do Estado do Rio de Janeiro (UERJ)",
+      "role": {
+        "pt": "Engenharia Elétrica — Ênfase em Sistemas e Computação",
+        "en": "B.Sc. in Electrical Engineering — Systems & Computing"
+      },
+      "summary": {
+        "pt": "Graduação em Engenharia de Computação com foco em arquitetura de software, algoritmos, estruturas de dados, eletrônica e sistemas operacionais.",
+        "en": "Computer Engineering undergraduate track focused on software architecture, algorithms, data structures, electronics, and operating systems."
+      }
+    },
+    {
+      "period": {
+        "pt": "2019 – 2022",
+        "en": "2019 – 2022"
+      },
+      "organization": "CEFET/RJ — UnED Nova Iguaçu",
+      "role": {
+        "pt": "Ensino Médio com Técnico em Telecomunicações",
+        "en": "Technical High School in Telecommunications"
+      },
+      "summary": {
+        "pt": "Formação técnica em telecomunicações, redes e eletrônica, além de projeto de montagem e manutenção de computadores (2021).",
+        "en": "Technical education in telecommunications, networking, and electronics, including a PC assembly and maintenance project (2021)."
+      }
+    }
+  ],
+  "tools": [
+    {
+      "category": {
+        "pt": "Apple & Produto",
+        "en": "Apple & Product"
+      },
+      "items": [
+        "Swift",
+        "SwiftUI",
+        "Swift Playgrounds",
+        "SpriteKit",
+        "UIKit",
+        "SwiftData",
+        "CloudKit",
+        "Foundation Models",
+        "Vapor",
+        {
+          "pt": "Testes & Validação com Usuários",
+          "en": "User Testing & Validation"
+        },
+        "Xcode"
+      ]
+    },
+    {
+      "category": {
+        "pt": "Web & Back-end",
+        "en": "Web & Back-end"
+      },
+      "items": ["TypeScript", "Next.js", "React", "PHP", "Laravel", "Node.js", "Tailwind CSS"]
+    },
+    {
+      "category": {
+        "pt": "Game Dev",
+        "en": "Game Dev"
+      },
+      "items": [
+        "Godot Engine 4",
+        "GDScript",
+        {
+          "pt": "Física 2D",
+          "en": "2D Physics"
+        },
+        "Shaders"
+      ]
+    },
+    {
+      "category": {
+        "pt": "Dados, Sistemas & Hardware",
+        "en": "Data, Systems & Hardware"
+      },
+      "items": ["SQL Server", "PostgreSQL / Supabase", "C#", "Python", "C / C++ (Arduino)", "SCADA", "Git", "VS Code"]
+    }
+  ]
+}
