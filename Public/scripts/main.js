@@ -38,7 +38,7 @@
   window.addEventListener('resize', updateScrollProgress, { passive: true });
   updateScrollProgress();
 
-  // ── 3. Blur + Spring Scroll Reveal (IntersectionObserver) ──
+  // ── 3. Progressive Scroll Reveal (visible by default, animates only below-fold items) ──
   var revealElements = Array.prototype.slice.call(document.querySelectorAll('[data-reveal]'));
   var prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -47,12 +47,14 @@
     if (delay) {
       el.style.transitionDelay = delay + 'ms';
     }
+    el.classList.remove('is-reveal-pending');
     el.classList.add('is-revealed');
   }
 
   if (prefersReduced || !('IntersectionObserver' in window)) {
     revealElements.forEach(showElement);
   } else {
+    var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
     var observer = new IntersectionObserver(
       function (entries, obs) {
         entries.forEach(function (entry) {
@@ -63,19 +65,25 @@
         });
       },
       {
-        threshold: 0.06,
-        rootMargin: '0px 0px -24px 0px',
+        threshold: 0.04,
+        rootMargin: '0px 0px 48px 0px',
       }
     );
 
     revealElements.forEach(function (el) {
-      observer.observe(el);
+      var rect = el.getBoundingClientRect();
+      if (rect.top > viewportHeight * 0.92) {
+        el.classList.add('is-reveal-pending');
+        observer.observe(el);
+      } else {
+        el.classList.add('is-revealed');
+      }
     });
   }
 
   // ── 4. Cursor-tracking Spotlight on Cards ──
   var spotlightCards = Array.prototype.slice.call(
-    document.querySelectorAll('.wip-card, .tool-group, .contact-card, .readme-block')
+    document.querySelectorAll('.wip-card, .tool-group, .contact-card, .readme-block, .edu-card')
   );
 
   if (!prefersReduced && spotlightCards.length > 0) {

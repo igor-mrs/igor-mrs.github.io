@@ -59,7 +59,7 @@ struct HTMLRenderer: Sendable {
           </script>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
           <link rel="stylesheet" href="/styles/main.css" />
         </head>
         <body>
@@ -146,7 +146,7 @@ struct HTMLRenderer: Sendable {
         let focusPrefix = lang == .pt ? "Agora:" : "Focus:"
 
         let nowItemsHTML = profile.nowStrip.enumerated().map { index, item in
-            let delay = index * 70
+            let delay = index * 60
             return """
             <div class="now-cell" data-reveal="up" data-delay="\(delay)">
               <div class="now-place">\(esc(item.place))</div>
@@ -157,7 +157,7 @@ struct HTMLRenderer: Sendable {
         }.joined(separator: "\n")
 
         let wipCardsHTML = wipProjects.enumerated().map { index, project in
-            let delay = index * 80
+            let delay = index * 70
             let stackPreview = project.stack.prefix(4).map { esc($0.value(for: lang)) }.joined(separator: " · ")
             let iconHTML = project.iconUrl.map { url in
                 "<img class=\"wip-icon\" src=\"\(esc(url))\" alt=\"\" width=\"32\" height=\"32\" loading=\"lazy\" />"
@@ -186,7 +186,7 @@ struct HTMLRenderer: Sendable {
         }.joined(separator: "\n")
 
         let archiveRowsHTML = archiveProjects.enumerated().map { index, project in
-            let delay = index * 55
+            let delay = index * 45
             let stackText = project.stack.prefix(3).map { esc($0.value(for: lang)) }.joined(separator: ", ")
             let iconHTML = project.iconUrl.map { url in
                 "<img class=\"row-icon\" src=\"\(esc(url))\" alt=\"\" width=\"24\" height=\"24\" loading=\"lazy\" />"
@@ -216,8 +216,8 @@ struct HTMLRenderer: Sendable {
           <div class="container">
             <div class="hero-grid">
               <div class="hero-copy">
-                <p class="eyebrow" data-reveal="up" data-delay="0">\(esc(profile.hero.eyebrow.value(for: lang)))</p>
-                <h1 class="hero-title" data-reveal="up" data-delay="30">\(esc(profile.hero.greeting.value(for: lang)))</h1>
+                <h1 class="hero-title" data-reveal="up" data-delay="0">\(esc(profile.hero.greeting.value(for: lang)))</h1>
+                <p class="hero-role" data-reveal="up" data-delay="30">\(esc(profile.hero.eyebrow.value(for: lang)))</p>
                 <p class="hero-lead" data-reveal="up" data-delay="60">\(esc(profile.hero.lead.value(for: lang)))</p>
                 <p class="hero-secondary" data-reveal="up" data-delay="90">\(esc(profile.hero.secondary.value(for: lang)))</p>
                 <div class="hero-actions" data-reveal="up" data-delay="120">
@@ -228,13 +228,16 @@ struct HTMLRenderer: Sendable {
 
               <div class="hero-photo-wrap" data-reveal="up" data-delay="60">
                 <img class="hero-photo" src="\(esc(profile.avatarUrl))" alt="\(esc(profile.fullName))" width="220" height="220" loading="eager" />
-                <div class="hero-photo-caption mono-meta">\(esc(profile.fullName)) · \(esc(profile.location))</div>
+                <div class="hero-photo-caption mono-meta">
+                  <span>\(esc(profile.fullName))</span>
+                  <span>\(esc(profile.location))</span>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="now-strip-section">
+        <section class="now-strip-section" aria-label="Atuação atual">
           <div class="container">
             <div class="now-grid">
               \(nowItemsHTML)
@@ -256,8 +259,8 @@ struct HTMLRenderer: Sendable {
           </div>
         </section>
 
-        <section class="section-block section-bordered">
-          <div class="container">
+        <section class="section-block">
+          <div class="container section-divider">
             <div class="section-head" data-reveal="up">
               <div>
                 <h2 class="section-title">\(allTitle)</h2>
@@ -294,8 +297,8 @@ struct HTMLRenderer: Sendable {
         let platformHeading = lang == .pt ? "Onde roda" : "Platform"
 
         let entriesHTML = projects.enumerated().map { index, project in
-            let delay = (index % 3) * 60
-            let dotClass = project.status == .wip ? "is-wip" : (project.status == .live ? "is-live" : "is-proto")
+            let delay = (index % 3) * 50
+            let dotClass = project.status == .wip ? "is-wip" : "is-live"
 
             let iconHTML = project.iconUrl.map { url in
                 "<img class=\"entry-icon\" src=\"\(esc(url))\" alt=\"\" width=\"36\" height=\"36\" loading=\"lazy\" />"
@@ -370,9 +373,9 @@ struct HTMLRenderer: Sendable {
         <section class="page-head">
           <div class="container">
             <h1 class="page-heading" data-reveal="up">\(title)</h1>
-            <p class="page-intro" data-reveal="up" data-delay="80">\(intro)</p>
+            <p class="page-intro" data-reveal="up" data-delay="60">\(intro)</p>
 
-            <div class="filter-bar" role="tablist" aria-label="Filtrar projetos" data-reveal="up" data-delay="140">
+            <div class="filter-bar" role="tablist" aria-label="Filtrar projetos" data-reveal="up" data-delay="110">
               <button type="button" class="filter-btn is-active" data-filter="all">\(filterAll) <span>\(projects.count)</span></button>
               <button type="button" class="filter-btn" data-filter="wip">\(filterWip) <span>\(projects.filter { $0.status == .wip }.count)</span></button>
               <button type="button" class="filter-btn" data-filter="live">\(filterLive) <span>\(projects.filter { $0.status == .live }.count)</span></button>
@@ -400,7 +403,7 @@ struct HTMLRenderer: Sendable {
             : "Internships, fellowships, and hands-on engineering."
         let eduTitle = lang == .pt ? "Formação Acadêmica" : "Academic Education"
         let eduSub = lang == .pt
-            ? "Graduação e ensino técnico."
+            ? "Graduação e formação técnica."
             : "University degree and technical high school."
         let toolsTitle = lang == .pt ? "Ferramentas & Stack" : "Tools & Stack"
         let contactTitle = lang == .pt ? "Contato" : "Get in touch"
@@ -414,7 +417,7 @@ struct HTMLRenderer: Sendable {
         }.joined(separator: "\n")
 
         let expHTML = profile.experience.enumerated().map { index, item in
-            let delay = index * 60
+            let delay = index * 50
             return """
             <div class="exp-item" data-reveal="up" data-delay="\(delay)">
               <div class="exp-period mono-meta">\(esc(item.period.value(for: lang)))</div>
@@ -430,19 +433,17 @@ struct HTMLRenderer: Sendable {
         let eduHTML = profile.education.enumerated().map { index, item in
             let delay = index * 60
             return """
-            <div class="exp-item" data-reveal="up" data-delay="\(delay)">
-              <div class="exp-period mono-meta">\(esc(item.period.value(for: lang)))</div>
-              <div class="exp-body">
-                <h3 class="exp-role">\(esc(item.role.value(for: lang)))</h3>
-                <div class="exp-org">\(esc(item.organization))</div>
-                <p class="exp-summary">\(esc(item.summary.value(for: lang)))</p>
-              </div>
-            </div>
+            <article class="edu-card" data-reveal="up" data-delay="\(delay)">
+              <div class="edu-period mono-meta">\(esc(item.period.value(for: lang)))</div>
+              <h3 class="edu-role">\(esc(item.role.value(for: lang)))</h3>
+              <div class="edu-org">\(esc(item.organization))</div>
+              <p class="edu-summary">\(esc(item.summary.value(for: lang)))</p>
+            </article>
             """
         }.joined(separator: "\n")
 
         let toolsHTML = profile.tools.enumerated().map { index, group in
-            let delay = index * 60
+            let delay = index * 50
             let itemsHTML = group.items.map { item in
                 "<li>\(esc(item.value(for: lang)))</li>"
             }.joined(separator: "\n")
@@ -467,64 +468,82 @@ struct HTMLRenderer: Sendable {
                 <p class="about-subline">\(esc(profile.fullName)) · \(esc(profile.location))</p>
               </div>
             </div>
-            <p class="page-intro mono-intro" data-reveal="up" data-delay="80">\(esc(profile.about.intro.value(for: lang)))</p>
+            <p class="page-intro mono-intro" data-reveal="up" data-delay="60">\(esc(profile.about.intro.value(for: lang)))</p>
           </div>
         </section>
 
-        <section class="section-block section-bordered">
-          <div class="container">
-            <div class="readme-block" data-reveal="up">
-              <h2 class="readme-heading">\(readmeTitle)</h2>
-              <ul class="readme-list">
-                \(readmeBulletsHTML)
-              </ul>
-            </div>
-            <div class="about-story" data-reveal="up" data-delay="80">
-              \(storyHTML)
+        <section class="section-block">
+          <div class="container section-divider">
+            <div class="about-overview-grid">
+              <div class="readme-block" data-reveal="up">
+                <h2 class="readme-heading">\(readmeTitle)</h2>
+                <ul class="readme-list">
+                  \(readmeBulletsHTML)
+                </ul>
+              </div>
+              <div class="about-story" data-reveal="up" data-delay="70">
+                \(storyHTML)
+              </div>
             </div>
           </div>
         </section>
 
-        <section class="section-block section-bordered">
-          <div class="container">
-            <h2 class="section-title" data-reveal="up">\(expTitle)</h2>
-            <p class="section-subtitle" data-reveal="up" data-delay="40">\(expSub)</p>
+        <section class="section-block">
+          <div class="container section-divider">
+            <div class="section-head" data-reveal="up">
+              <div>
+                <h2 class="section-title">\(expTitle)</h2>
+                <p class="section-subtitle">\(expSub)</p>
+              </div>
+            </div>
             <div class="exp-list">
               \(expHTML)
             </div>
           </div>
         </section>
 
-        <section class="section-block section-bordered">
-          <div class="container">
-            <h2 class="section-title" data-reveal="up">\(eduTitle)</h2>
-            <p class="section-subtitle" data-reveal="up" data-delay="40">\(eduSub)</p>
-            <div class="exp-list">
+        <section class="section-block">
+          <div class="container section-divider">
+            <div class="section-head" data-reveal="up">
+              <div>
+                <h2 class="section-title">\(eduTitle)</h2>
+                <p class="section-subtitle">\(eduSub)</p>
+              </div>
+            </div>
+            <div class="edu-grid">
               \(eduHTML)
             </div>
           </div>
         </section>
 
-        <section class="section-block section-bordered">
-          <div class="container">
-            <h2 class="section-title" data-reveal="up">\(toolsTitle)</h2>
+        <section class="section-block">
+          <div class="container section-divider">
+            <div class="section-head" data-reveal="up">
+              <div>
+                <h2 class="section-title">\(toolsTitle)</h2>
+              </div>
+            </div>
             <div class="tools-grid">
               \(toolsHTML)
             </div>
           </div>
         </section>
 
-        <section class="section-block section-bordered">
-          <div class="container">
-            <h2 class="section-title" data-reveal="up">\(contactTitle)</h2>
-            <div class="contact-links" data-reveal="up" data-delay="80">
+        <section class="section-block">
+          <div class="container section-divider">
+            <div class="section-head" data-reveal="up">
+              <div>
+                <h2 class="section-title">\(contactTitle)</h2>
+              </div>
+            </div>
+            <div class="contact-links" data-reveal="up" data-delay="60">
               <a class="contact-card" href="\(esc(profile.githubUrl))" target="_blank" rel="noopener noreferrer">
                 <span class="contact-label">GitHub</span>
-                <span class="contact-val">@\(esc(profile.handle)) ↗</span>
+                <span class="contact-val">@\(esc(profile.handle)) <span class="arrow-shift">↗</span></span>
               </a>
               <a class="contact-card" href="\(esc(profile.linkedinUrl))" target="_blank" rel="noopener noreferrer">
                 <span class="contact-label">LinkedIn</span>
-                <span class="contact-val">igor-morais-do-amaral ↗</span>
+                <span class="contact-val">igor-morais-do-amaral <span class="arrow-shift">↗</span></span>
               </a>
               <a class="contact-card" href="mailto:\(esc(profile.email))">
                 <span class="contact-label">E-mail</span>
